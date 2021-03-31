@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "allowJs": true,
+    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "strict": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
